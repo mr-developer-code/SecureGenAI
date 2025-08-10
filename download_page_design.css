@@ -1,0 +1,439 @@
+.download-screen-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.download-screen-download-screen {
+  width: 100%;
+  height: 1241px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(180deg, rgba(55, 96, 187, 1) 0%, rgba(15, 28, 51, 1) 100%);
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-default-background);
+}
+ 
+.download-screen-objects {
+  top: -151px;
+  left: -1px;
+  width: 1442px;
+  height: 1327px;
+  position: absolute;
+}
+ 
+.download-screen-downloadand-secure {
+  top: 210px;
+  left: 400px;
+  width: 552px;
+  height: 655px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.download-screen-text10 {
+  left: 37px;
+  color: rgba(244, 248, 251, 1);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 60px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.download-screen-group27 {
+  top: 155px;
+  left: 0px;
+  width: 552px;
+  height: 500px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(15, 28, 51, 1);
+}
+ 
+.download-screen-group26 {
+  top: 35px;
+  left: 45px;
+  width: 462px;
+  height: 430px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.download-screen-group25 {
+  top: 370px;
+  left: 30px;
+  width: 400px;
+  height: 60px;
+  display: flex;
+  flex-shrink: 1;
+  background-color: rgba(244, 248, 251, 1);
+  
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; 
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.download-screen-group25:hover {
+  background-color: rgba(244, 248, 251, 1);
+  transform: scale(0.95);
+}
+ 
+.download-screen-text14 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-style: SemiBold;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  color: rgba(15, 28, 51, 1);
+}
+ 
+.download-screen-text15 {
+  color: rgba(0, 242, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.download-screen-text16 {
+  top: 56px;
+  color: rgba(194, 211, 225, 1);
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.download-screen-text22 {
+  top: 228px;
+  left: 37px;
+  color: rgba(244, 248, 251, 1);
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.download-screen-text23 {
+  top: 271px;
+  left: 37px;
+  color: rgba(244, 248, 251, 1);
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.download-screen-text24 {
+  top: 185px;
+  left: 37px;
+  color: rgba(244, 248, 251, 1);
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.download-screen-securityprotectionshielddonetickchecksvgrepocom1 {
+  top: 189px;
+  left: 0px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+ 
+.download-screen-securityprotectionshielddonetickchecksvgrepocom2 {
+  top: 232px;
+  left: 0px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+ 
+.download-screen-securityprotectionshielddonetickchecksvgrepocom3 {
+  top: 275px;
+  left: 0px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+
+.download-screen-dashboard-footer {
+  top: 990px;
+  left: 0px;
+  width: 1440px;
+  height: 250px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(45, 70, 120, 1);
+}
+ 
+.download-screen-group78 {
+  top: 54px;
+  left: 160px;
+  width: 1120px;
+  height: 93px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.download-screen-frame2 {
+  gap: 30px;
+  top: 52px;
+  left: 608px;
+  width: 512px;
+  height: 38px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.download-screen-text25 {
+  color: rgba(244, 248, 251, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+ 
+.download-screen-text26 {
+  color: rgba(244, 248, 251, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+ 
+.download-screen-text27 {
+  color: rgba(244, 248, 251, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+ 
+.download-screen-text28 {
+  color: rgba(244, 248, 251, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.download-screen-text26:hover,
+.download-screen-text27:hover,
+.download-screen-text28:hover,
+.download-screen-text25:hover {
+  color: rgba(0, 242, 255, 1);
+}
+ 
+.download-screen-text29 {
+  left: 608px;
+  color: rgba(0, 242, 255, 1);
+  width: 169px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.download-screen-group44 {
+  top: 49px;
+  left: 0px;
+  width: 259px;
+  height: 44px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.download-screen-text30 {
+  top: 2.24462890625px;
+  left: 43px;
+  color: rgba(244, 248, 251, 1);
+  width: 216px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.download-screen-text31 {
+  color: rgba(244, 248, 251, 1);
+}
+ 
+.download-screen-finalskytrnsp41 {
+  top: 0px;
+  left: 0px;
+  width: 36px;
+  height: 44px;
+  position: absolute;
+}
+
+.signinscreen-dashboard-header-container {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 119px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(45, 70, 120, 1);
+}
+ 
+.signinscreen-dashboard-header {
+  top: 39px;
+  left: 110px;
+  width: 1120px;
+  height: 44px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.signinscreen-group64 {
+  top: 0px;
+  left: 0px;
+  width: 259px;
+  height: 44px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.signinscreen-text29 {
+  top: 2.2447509765625px;
+  left: 43px;
+  color: rgba(244, 248, 251, 1);
+  width: 216px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-weight: 700;
+  font-family: Poppins;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.signinscreen-text30 {
+  color: rgba(244, 248, 251, 1);
+}
+ 
+.signinscreen-text32 {
+  color: rgba(0, 242, 255, 1);
+  position: absolute;
+}
+.signinscreen-finalskytrnsp42 {
+  top: 0px;
+  left: 0px;
+  width: 36px;
+  height: 44px;
+  position: absolute;
+}

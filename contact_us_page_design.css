@@ -1,0 +1,656 @@
+.contactus-screen-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.contactus-screen-contactus-screen {
+  width: 100%;
+  height: 1241px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(180deg, rgba(55, 96, 187, 1) 0%, rgba(15, 28, 51, 1) 100%);
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-default-background);
+}
+ 
+.contactus-screen-objects {
+  top: -151px;
+  left: -1px;
+  width: 1442px;
+  height: 1327px;
+  position: absolute;
+}
+ 
+
+
+
+
+
+
+
+
+.contactus-screen-finalskytrnsp2 {
+  top: 20px;
+  left: 191px;
+  width: 68px;
+  height: 80px;
+  position: absolute;
+}
+ 
+.contactus-screen-text1 {
+  top: 201px;
+  left: 31px;
+  color: rgba(194, 211, 225, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.contactus-screen-text2 {
+  top: 122px;
+  left: 31px;
+  color: rgba(244, 248, 251, 1);
+  height: auto;
+  position: absolute;
+  font-size: 38px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.contactus-screen-group10 {
+  top: 245px;
+  left: 26px;
+  width: 400px;
+  height: 71px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.contactus-screen-text3 {
+  left: 19px;
+  color: rgba(0, 242, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.contactus-screen-subtract1 {
+  top: 11px;
+  left: 0px;
+  width: 400px;
+  height: 60px;
+  position: absolute;
+}
+ 
+.contactus-screen-group15 {
+  top: 338px;
+  left: 26px;
+  width: 400px;
+  height: 98px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.contactus-screen-text4 {
+  top: 76px;
+  left: 243px;
+  color: rgba(244, 248, 251, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.contactus-screen-group11 {
+  top: 0px;
+  left: 0px;
+  width: 400px;
+  height: 71px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.contactus-screen-text5 {
+  left: 21px;
+  color: rgba(0, 242, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.contactus-screen-subtract2 {
+  top: 11px;
+  left: 0px;
+  width: 400px;
+  height: 60px;
+  position: absolute;
+}
+ 
+.contactus-screen-eyeslashsvgrepocom {
+  top: 28px;
+  left: 355px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+ 
+.contactus-screen-group21 {
+  top: 458px;
+  left: 26.5px;
+  width: 400px;
+  height: 60px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(244, 248, 251, 1);
+}
+ 
+.contactus-screen-text6 {
+  top: 15px;
+  left: 165px;
+  color: rgba(15, 28, 51, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.contactus-screen-group13 {
+  top: 540px;
+  left: 1px;
+  width: 449px;
+  height: 22px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.contactus-screen-text7 {
+  left: 212px;
+  color: rgba(244, 248, 251, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.contactus-screen-line4 {
+  top: 11px;
+  left: 0px;
+  width: 185px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.contactus-screen-line5 {
+  top: 11px;
+  left: 264px;
+  width: 185px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.contactus-screen-group22 {
+  top: 584px;
+  left: 26.5px;
+  width: 400px;
+  height: 60px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.contactus-screen-group1 {
+  top: 18px;
+  left: 85px;
+  width: 230px;
+  height: 28px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.contactus-screen-text8 {
+  top: 1px;
+  left: 45px;
+  color: rgba(244, 248, 251, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.contactus-screen-googlecolorsvgrepocom {
+  top: 0px;
+  left: 0px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Poppins, sans-serif;
+}
+
+body, p, input, button, .input-field, .welcome-text, .forgot-password, .signup-text, .or-divider, .google-btn, .sign-in-btn {
+  font-family: Inter, sans-serif;
+}
+
+.contactus-screen-dashboard-footer {
+  top: 991px;
+  left: 0px;
+  width: 1440px;
+  height: 250px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(45, 70, 120, 1);
+}
+ 
+.contactus-screen-group78 {
+  top: 54px;
+  left: 160px;
+  width: 1120px;
+  height: 93px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.contactus-screen-frame2 {
+  gap: 30px;
+  top: 52px;
+  left: 608px;
+  width: 512px;
+  height: 38px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.contactus-screen-text21 {
+  color: rgba(244, 248, 251, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.contactus-screen-text22 {
+  color: rgba(244, 248, 251, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;  
+}
+ 
+.contactus-screen-text23 {
+  color: rgba(244, 248, 251, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+ 
+.contactus-screen-text24 {
+  color: rgba(244, 248, 251, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+ 
+.contactus-screen-text25 {
+  left: 608px;
+  color: rgba(0, 242, 255, 1);
+  width: 169px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.contactus-screen-text22:hover,
+.contactus-screen-text23:hover,
+.contactus-screen-text24:hover {
+  color: rgba(0, 242, 255, 1);
+}
+ 
+.contactus-screen-group44 {
+  top: 49px;
+  left: 0px;
+  width: 259px;
+  height: 44px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.contactus-screen-text26 {
+  top: 2.24462890625px;
+  left: 43px;
+  color: rgba(244, 248, 251, 1);
+  width: 216px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.contactus-screen-text27 {
+  color: rgba(244, 248, 251, 1);
+}
+ 
+.contactus-screen-finalskytrnsp41 {
+  top: 0px;
+  left: 0px;
+  width: 36px;
+  height: 44px;
+  position: absolute;
+}
+
+.contactus-screen-dashboard-header-container {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 119px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(45, 70, 120, 1);
+}
+ 
+.contactus-screen-dashboard-header {
+  top: 39px;
+  left: 110px;
+  width: 1120px;
+  height: 44px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.contactus-screen-group64 {
+  top: 0px;
+  left: 0px;
+  width: 259px;
+  height: 44px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.contactus-screen-text29 {
+  top: 2.2447509765625px;
+  left: 43px;
+  color: rgba(244, 248, 251, 1);
+  width: 216px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-weight: 700;
+  font-family: Poppins;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.contactus-screen-text30 {
+  color: rgba(244, 248, 251, 1);
+}
+ 
+.contactus-screen-text31 {
+  color: rgba(0, 242, 255, 1);
+  position: absolute;
+}
+.contactus-screen-finalskytrnsp42 {
+  top: 0px;
+  left: 0px;
+  width: 36px;
+  height: 44px;
+  position: absolute;
+}
+
+.contactus-screen-card6 {
+  top: 240px;
+  left: 110px;
+  width: 1120px;
+  height: 600px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(15, 28, 51, 1);
+  border: 2px solid rgba(0, 242, 255, 1); /* Match Get Started button border */
+    border-radius: 20px; /* Rounded corners */
+}
+
+.contactus-screen-group76 {
+  top: 35px;
+  left: 285px;
+  width: 551px;
+  height: 525px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.contactus-screen-text53 {
+  left: 141px;
+  color: rgba(244, 248, 251, 1);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: SemiBold;
+  text-align: left;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.contactus-screen-contact-form {
+  top: 100px;
+  left: 0px;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+}
+
+.contactus-screen-text54 {
+  top: auto;
+  position: relative;
+  color: rgba(244, 248, 251, 1);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contactus-screen-text55 {
+  top: auto;
+  position: relative;
+  color: rgba(244, 248, 251, 1);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+}
+ 
+.contactus-screen-text56 {
+  top: auto;
+  position: relative;
+  color: rgba(244, 248, 251, 1);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contactus-screen-input {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: rgba(15, 28, 51, 1);
+  color: rgba(244, 248, 251, 1);
+  font-size: 18px;
+  border: 1px solid rgba(0, 242, 255, 1);
+  border-radius: 6px;
+  outline: none;
+}
+.contactus-screen-input::placeholder {
+  color: rgba(194, 211, 225, 0.7);
+}
+
+.contactus-screen-textarea {
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: rgba(15, 28, 51, 1);
+  color: rgba(244, 248, 251, 1);
+  font-size: 18px;
+  border: 1px solid rgba(0, 242, 255, 1);
+  border-radius: 6px;
+  resize: vertical;
+  outline: none;
+}
+.contactus-screen-textarea::placeholder {
+  color: rgba(194, 211, 225, 0.7);
+}
+
+.contactus-screen-submit {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  color: rgba(15, 28, 51, 1);
+  font-size: 25px;
+  font-weight: 700;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+.contactus-screen-submit:hover {
+  background-color: rgb(255, 255, 255);
+  transform: scale(0.95);
+}
+

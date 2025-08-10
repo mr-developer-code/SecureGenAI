@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="english"
+  ><head
+    ><title>SecureGen AI</title>
+    <link rel="icon" type="image/png" href="pictures/logo9112-rl3l-200w.png" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <script type ="text/javascript">
+      history.pushState(null, null, location.herf);
+        window.onpopstate = function(){
+          history.go(1);
+        };
+    </script>
+  </head>
+  <body
+    ><link rel="stylesheet" href="./dashboard_page_style.css" /><div
+      ><link href="./dashboard_page_design.css" rel="stylesheet" /><div
+        class="dashboard-container"
+        ><div class="dashboard-dashboard"
+          ><img
+            src="pictures/objects1993-brdi.svg"
+            alt="OBJECTS1993"
+            class="dashboard-objects1"
+          /><div class="dashboard-dashboard-header"
+            ><div class="dashboard-group64"
+              ><span class="dashboard-text10"
+                ><span class="dashboard-text11">SecureGen</span
+                ><span class="dashboard-text20">AI</span></span
+              ><img
+                src="pictures/finalskytrnsp42355-n8ze-200w.png"
+                alt="finalskytrnsp42355"
+                class="dashboard-finalskytrnsp41" /></div></div
+          ><div class="dashboard-dashboard-footer"
+            ><div class="dashboard-group78"
+              ><div class="dashboard-frame2">
+                <a href="/contact_us_page.html" class="dashboard-text13">Contact Us</a>
+                <span class="dashboard-text14">Terms and conditions</span
+                ><span class="dashboard-text15">Privacy Policy</span
+                ><span class="dashboard-text16">FAQs</span></div
+              ><span class="dashboard-text17">Resources</span
+              ><div class="dashboard-group44"
+                ><span class="dashboard-text18"
+                  ><span class="dashboard-text19">SecureGen</span
+                  ><span class="dashboard-text20">AI</span></span
+                ><img
+                  src="pictures/finalskytrnsp42355-5kxa-200w.png"
+                  alt="finalskytrnsp42355"
+                  class="dashboard-finalskytrnsp42" /></div></div></div
+          ><div class="dashboard-group63"
+            ><span class="dashboard-text21"
+              ><span class="dashboard-text22">Network Security</span
+              ><span class="dashboard-text23"> </span
+              ><span class="dashboard-text24">Dashboard</span></span
+            ><img
+              src="pictures/green-dot.png"
+              alt="Ellipse42332"
+              class="dashboard-ellipse4"
+            /><span class="dashboard-text25">Protected</span
+            ><div class="dashboard-group45"
+              ><img
+                src="pictures/ellipse72332-yj8l-200h.png"
+                alt="Ellipse72332"
+                class="dashboard-ellipse71" /></div
+            ><span class="dashboard-text26" id="user-name"></span></div
+          ><div class="dashboard-dashboard-cards"
+            ><div class="dashboard-group56"
+              ><span class="dashboard-text27">Threat Status</span
+              ><div class="dashboard-group46"
+                ><img
+                  src="pictures/ellipse72332-1if-200h.png"
+                  alt="Ellipse72332"
+                  class="dashboard-ellipse72" /><img
+                  src="pictures/shieldprotectionsecuritysvgrepocom2332-cip.svg"
+                  alt="shieldprotectionsecuritysvgrepocom2332"
+                  class="dashboard-shieldprotectionsecuritysvgrepocom" /></div
+              ><span class="dashboard-text28"></span></div
+            >
+            <!-- <div class="dashboard-group57"
+              ><span class="dashboard-text29">Model Accuracy</span>
+              <div class="dashboard-group48"
+              ><img
+              src="pictures/analyticssvgrepocom2332-o4cd.svg"
+              alt="analyticssvgrepocom2332"
+              class="dashboard-analyticssvgrepocom1" /><img
+              src="pictures/ellipse72332-9w69-200h.png"
+              alt="Ellipse72332"
+              class="dashboard-ellipse73" /></div
+              ><span class="dashboard-text31"></span>
+              <span class="dashboard-text30"></span>
+              </div> -->
+            <div class="dashboard-group58">
+              <img
+                src="pictures/rectangle282332-llt-200h.png"
+                alt="Rectangle282332"
+                class="dashboard-rectangle28"/>
+              <span class="dashboard-text32"> per minute</span
+              ><span class="dashboard-text33">Network Load</span
+              ><div class="dashboard-group49"
+                ><img
+                  src="pictures/ellipse82332-fmld-200h.png"
+                  alt="Ellipse82332"
+                  class="dashboard-ellipse8" /><img
+                  src="pictures/analyticssvgrepocom2332-zc4x.svg"
+                  alt="analyticssvgrepocom2332"
+                  class="dashboard-analyticssvgrepocom2" /></div
+              ><span class="dashboard-text34"></span></div
+            ><div class="dashboard-group59"
+              ><span class="dashboard-text35"></span
+              ><span class="dashboard-text36">Connections</span
+              ><div class="dashboard-group50"
+                ><img
+                  src="pictures/ellipse92332-kxt-200h.png"
+                  alt="Ellipse92332"
+                  class="dashboard-ellipse9" /><img
+                  src="pictures/heartratesvgrepocom2332-4kqq.svg"
+                  alt="heartratesvgrepocom2332"
+                  class="dashboard-heartratesvgrepocom" /></div
+              ><span class="dashboard-text37"></span></div
+            ></div>
+
+          <div class="dashboard-network-trafficand-connections"
+            ><div class="dashboard-group60">
+              <canvas id="networkTrafficChart" width="550" height="330"></canvas>
+              </div>
+            <div class="dashboard-group61">
+                <canvas id="connectionsChart" width="550" height="330"></canvas>
+              </div>
+            </div>
+            
+            <div class="dashboard-packet-info-card">
+              <div class="packet-info-card">
+                <div class="packet-info-header">
+                 <span class="packet-info-title">Packet Information</span>
+                  <div class="packet-info-buttons">
+                    <div class="dashboard-group53" id="refreshBtn"
+                      ><div class="dashboard-group51"
+                        ><span class="dashboard-text70">Refresh</span
+                        ><img
+                          src="pictures/refreshcwalt3svgrepocom2343-ah4t.svg"
+                          alt="refreshcwalt3svgrepocom2343"
+                          class="dashboard-refreshcwalt3svgrepocom" />
+                        </div>
+                      </div>
+                      <div class="dashboard-group55" id="exportBtn"
+                        ><div class="dashboard-group52"
+                          ><span class="dashboard-text71">Export</span
+                          ><img
+                            src="pictures/exportsvgrepocom2343-zod7.svg"
+                            alt="exportsvgrepocom2343"
+                            class="dashboard-exportsvgrepocom" />
+                          </div>
+                        </div>
+                  </div>
+                </div>
+                <table class="packet-info-table">
+                  <thead>
+                   <tr>
+                      <th>TIME</th>
+                      <th>SOURCE</th>
+                      <th>DESTINATION</th>
+                      <th>PROTOCOL</th>
+                      <th>SIZE</th>
+                      <th>STATUS</th>
+                   </tr>
+                  </thead>
+                  <tbody id="packetInfoTableBody">
+                    <!-- Rows will be injected by JS -->
+                  </tbody>
+                </table>
+              </div>
+            </div
+          ></div
+        ></div
+      ></div
+    >
+    <script type="module" src="firebase-config.js"></script>
+    <script type="module" src="dashboard_page.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  </body></html
+>
